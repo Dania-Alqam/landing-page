@@ -31,7 +31,7 @@ ul{
 }
 
 .container{
-    /* width from figma is 60px from each side*/
+    /* width from figm is 60px from each side*/
     width: calc(100% - 120px);
     margin: auto;
 }
