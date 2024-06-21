@@ -1,0 +1,128 @@
+@import url(./public.css); 
+
+/* start header */
+.header{
+    /* it will not work becuase we added contianer so we add row*/
+    /* display: flex; */
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 0 ;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.header .logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.header .logo img{
+    width: 35px;
+}
+
+.header .logo a{
+color: var(--mainColor);
+}
+
+.header .nav a{
+    color: #101928;
+}
+
+.header .nav a:hover{
+    color: var(--mainColor);
+}
+/* For the home bold*/
+.active{
+font-weight: 800;
+}
+/* common properities*/
+.header .auth a{
+    font-family: var(--subFont);
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+.header .auth a:first-of-type{
+    border: 1px solid var(--mainColor);
+}
+.header .auth a:last-of-type{
+    background-color: var(--mainColor);
+    color: white;
+}
+@media (max-width:900px) {
+    .header .nav{
+        display: none;
+    }
+}
+/* end header */
+
+/* start footer */
+.footer{
+    background-color: #393E46;
+    padding: 50px 0;
+}
+
+.footer a,.footer h2{
+    color: #fff;
+}
+
+.footer .footer-start,.footer .footer-end{
+    width: calc((100% - 40px) / 2);
+}
+
+.footer .row{
+    gap: 40px;
+}
+
+.footer .footer-start{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap
+}
+
+.footer .footer-start .logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.footer .footer-start .logo img{
+    width: 30px;
+}
+.footer .footer-start .logo a{
+    font-size: 14px;
+}
+.footer .footer-start  p{
+    color: #F4F4F4;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer .footer-start .icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer .footer-start .icons img{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.footer-end .row{
+    align-items: start;
+    justify-content: space-around;
+
+}
+.footer-end .footer-item{
+display: flex;
+}
+/* end footer */

@@ -1,0 +1,12 @@
+@import url(./);
+.header{
+    /* it will not work becuase we added contianer so we add row*/
+    /* display: flex; */
+    background-color: tan
+}
+
+
+.nav ul{
+    display: flex;
+    gap: 16px;
+}

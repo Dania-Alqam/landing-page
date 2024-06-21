@@ -1,0 +1,13 @@
+@import url(./public.css); /* we can call this way */
+.header{
+    /* it will not work becuase we added contianer so we add row*/
+    /* display: flex; */
+    background-color: tan;
+    position: sticky;
+}
+
+
+.nav ul{
+    display: flex;
+    gap: 16px;
+}

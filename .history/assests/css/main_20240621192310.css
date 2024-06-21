@@ -1,0 +1,29 @@
+/* start public style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    /* width from fugma is 60px from each side*/
+    width: calc(100% - 120px);
+    margin: auto;
+}
+
+.header{
+    /* it will not work becuase we added contianer so we add row*/
+    /* display: flex; */
+    background-color: tan
+}
+
+
+.nav ul{
+    display: flex;
+    gap: 16px;
+}
